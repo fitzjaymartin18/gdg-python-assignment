@@ -28,14 +28,13 @@ The greeting message is: Hello Sparky, welcome to the GDG Web Development Team! 
    Write a Python function `create_greeting(name)` that:
 
    - Accepts one parameter: `name` (a string).
-   - Returns a greeting message in the format: `"Hello, <name>!"`.
+   - Returns a greeting message in the format: `"Hello, <name>!, welcome to the GDG Web Development Team! You're doing great, and I truly believe that someday you'll be an amazing developer. Life may feel challenging right now, and programming can be overwhelming at times, but remember, all your hard work will pay off in the end. Keep pushing forward, you're on the right path!"`.
 
 2. **Task Breakdown**:
 
-   - **Function 1**: `create_greeting(name)`
+   - **Function**: `create_greeting(name)`
      - This function:
        - Accepts a single parameter: `name` (a string).
-       - Returns a string with the format `"Hello, <name>!"`.
 
 3. **Test the Function**:
 
