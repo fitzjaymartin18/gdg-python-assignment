@@ -1,6 +1,4 @@
-Here’s the revised version with Python topics:
 
----
 
 # 🧑🏻‍💻 Python Study Jam 🚀
 
