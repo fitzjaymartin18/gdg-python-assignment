@@ -1,7 +1,3 @@
-Here’s the revised version with Python topics:
-
----
-
 # 🧑🏻‍💻 Python Study Jam 🚀
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -15,7 +11,6 @@ Get ready to dive deep into Python fundamentals and hands-on projects. Whether y
 This repository contains the following **main** folders:
 
 1. **Assignments folder**: A collection of exercises designed to solidify your understanding of Python concepts.
-2. **Project folder**: The main project that you will build as part of this workshop.
 
 ## 📅 Assignments
 
@@ -31,14 +26,6 @@ This repository contains the following **main** folders:
 | 6   | Dictionaries                              | Create dictionaries to store key-value pairs. Practice adding, removing, and updating dictionary items.                                          |
 | 7   | File Handling                             | Learn how to read from and write to files. Create a program that reads from a file and outputs its contents.                                     |
 | 8   | Object-Oriented Programming (OOP) Basics  | Dive into the basics of OOP: classes, objects, and methods. Build a simple class with attributes and methods to model a real-world object.       |
-
-## 🚀 Project Assignment: Rock Paper Scissors Game
-
-Add here
-
-### Skills Practice
-
-Add here
 
 ## 🌟 Getting Started with GDG-PUP Repository Template
 
