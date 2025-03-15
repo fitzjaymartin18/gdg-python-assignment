@@ -6,6 +6,7 @@ In this assignment, you will create a simple Python function that generates a pe
 
 ---
 
+
 ## Expected Output
 
 The function will create and return a greeting message in the following format:
@@ -56,6 +57,7 @@ The greeting message is: Hello Sparky, welcome to the GDG Web Development Team! 
    - Use the provided file (`main.py`) only as a reference after you’ve attempted your own solution.
 
 ---
+
 
 ## Tips
 

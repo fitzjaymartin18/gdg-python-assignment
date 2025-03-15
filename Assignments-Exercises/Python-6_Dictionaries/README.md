@@ -2,6 +2,7 @@
 
 In this assignment, you will learn how to create and work with dictionaries in Python. A dictionary in Python is a collection of key-value pairs, where each key maps to a value. You will practice creating a dictionary, adding items, updating items, and removing items. Dictionaries are a useful data structure when you need to store and access data in a key-based format.
 
+
 ### **Expected Output**
 
 The program should:
