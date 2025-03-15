@@ -1,17 +1,16 @@
-# Define the Car class
 class Car:
-    # The constructor method to initialize the object
+    # Initializing the value
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
         self.year = year
 
-    # Method to return a description of the car
+    # Function that describes the car
     def describe(self):
-        return f"This car is a {self.year} {self.make} {self.model}."
+        return f"This car is {self.year} {self.make} {self.model}."
+    
+# Creating an instance
+car = Car("Ford", "Raptor F-150s", "2024")
 
-# Create an instance of the Car class
-my_car = Car("Toyota", "Corolla", 2020)
-
-# Print the description of the car
-print(my_car.describe())
+# Printing the result
+print(car.describe())
