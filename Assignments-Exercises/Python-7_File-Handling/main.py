@@ -1,18 +1,34 @@
-# Step 1: Read contents from a file
+# Reading the sample text file
+file_to_read = 'sample.txt'
 try:
-    with open('sample.txt', 'r') as file:
-        contents = file.read()
-        print("Contents of the file:")
-        print(contents)
-except FileNotFoundError:
-    print("The file 'sample.txt' was not found.")
+    with open(file_to_read, 'r') as file:
+        content = file.read()
+        print("Content of the file: ")
+        print(content)
+        file.close()
 
-# Step 2: Write to a new file
-with open('newfile.txt', 'w') as file:
-    file.write("This is a new file, like New Year New Me XD.\n")
-    print("\nNew file created with content:")
+# Catch the error
+except ValueError:
+    print("File cannot be found.")
 
-# Step 3: Verify content in the new file by reading it
-with open('newfile.txt', 'r') as file:
-    newfile_contents = file.read()
-    print(newfile_contents)
+
+# Writing and creating a new file
+new_file = 'newfile.txt'
+with open(new_file, 'w') as file:
+    file.write("Hello World, this is a test!")
+    file.close()
+    print(f"\n{new_file} is created")
+    
+# Reading the created file
+file_to_read = new_file
+try:
+    with open(file_to_read, 'r') as file:
+        content = file.read()
+        print("\nContent of the file: ")
+        print(content)
+        file.close()
+
+# Catch the error
+except ValueError:
+    print("File cannot be found.")
+
